@@ -3,7 +3,7 @@ CREATE SCHEMA IF NOT EXISTS SpotifyClone;
 CREATE TABLE SpotifyClone.planos(
   plano_id INT PRIMARY KEY AUTO_INCREMENT,
   plano VARCHAR(15) NOT NULL UNIQUE,
-  valor INT NOT NULL
+  valor DECIMAL(4, 2) NOT NULL
 );
 
 CREATE TABLE SpotifyClone.artistas(
